@@ -13,6 +13,8 @@ import logoLaravel from "../assets/Logo/laravel.png"
 import logoReact from "../assets/Logo/react.png"
 import logoTailwind from "../assets/Logo/tailwind.png"
 import simak from "../assets/Projects/simak.png"
+import amazon from "../assets/Projects/amazon.png"
+import rock from "../assets/Projects/rock.png"
 
 export const ABOUT = [
     {
@@ -82,33 +84,21 @@ export const SKILLS = [
 export const PROJECTS = [
     {
         title: "Sistem Informasi Akademik",
-        desc: "An Academic Information System built with HTML, Tailwind CSS, and JavaScript to efficiently manage student data, schedules, and grades.",
+        desc: "An Academic Information System built with HTML, Tailwind CSS, JavaScript and React to efficiently manage student data, schedules, and grades.",
         image: simak,
-        link: ""
+        link: "https://simak-weld.vercel.app/"
     },
     {
-        title: "Sistem Informasi Akademik",
-        desc: "An Academic Information System built with HTML, Tailwind CSS, and JavaScript to efficiently manage student data, schedules, and grades.",
-        image: simak,
-        link: ""
+        title: "Amazon Clone",
+        desc: "A clone of the Amazon website built with HTML, CSS, and JavaScript.",
+        image: amazon,
+        link: "https://amazon-clone-beige-three.vercel.app/"
     },
     {
-        title: "Sistem Informasi Akademik",
-        desc: "An Academic Information System built with HTML, Tailwind CSS, and JavaScript to efficiently manage student data, schedules, and grades.",
-        image: simak,
-        link: ""
-    },
-    {
-        title: "Sistem Informasi Akademik",
-        desc: "An Academic Information System built with HTML, Tailwind CSS, and JavaScript to efficiently manage student data, schedules, and grades.",
-        image: simak,
-        link: ""
-    },
-    {
-        title: "Sistem Informasi Akademik",
-        desc: "An Academic Information System built with HTML, Tailwind CSS, and JavaScript to efficiently manage student data, schedules, and grades.",
-        image: simak,
-        link: ""
+        title: "Rock Paper Scissors",
+        desc: "A simple game of Rock Paper Scissors built with HTML, CSS, and JavaScript.",
+        image: rock,
+        link: "https://rock-paper-scissors-green.vercel.app/"
     },
 ]
 
