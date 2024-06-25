@@ -15,6 +15,7 @@ import logoTailwind from "../assets/Logo/tailwind.png"
 import simak from "../assets/Projects/simak.png"
 import amazon from "../assets/Projects/amazon.png"
 import rock from "../assets/Projects/rock.png"
+import transfermarkt from '../assets/Projects/transfermarkt.png'
 
 export const ABOUT = [
     {
@@ -84,7 +85,7 @@ export const SKILLS = [
 export const PROJECTS = [
     {
         title: "Sistem Informasi Akademik",
-        desc: "An Academic Information System built with HTML, Tailwind CSS, JavaScript and React to efficiently manage student data, schedules, and grades.",
+        desc: "An Academic Information System built with HTML, Tailwind CSS, JavaScript and React.",
         image: simak,
         link: "https://simak-weld.vercel.app/"
     },
@@ -100,5 +101,11 @@ export const PROJECTS = [
         image: rock,
         link: "https://rock-paper-scissors-green.vercel.app/"
     },
+    {
+        title: "Transfermarkt Clone",
+        desc: "A clone of the Transfermarkt website built with React and Tailwind CSS.",
+        image: transfermarkt,
+        link: "https://transfermarkt-gold.vercel.app/"
+    }
 ]
 
