@@ -16,6 +16,7 @@ import simak from "../assets/Projects/simak.png"
 import amazon from "../assets/Projects/amazon.png"
 import rock from "../assets/Projects/rock.png"
 import transfermarkt from '../assets/Projects/transfermarkt.png'
+import youtube from '../assets/Projects/youtube.png'
 
 export const ABOUT = [
     {
@@ -106,6 +107,13 @@ export const PROJECTS = [
         desc: "A clone of the Transfermarkt website built with React and Tailwind CSS.",
         image: transfermarkt,
         link: "https://transfermarkt-gold.vercel.app/"
+    },
+    {
+        title: "YouTube Clone",
+        desc: "A clone of the YouTube website built with React and CSS, utilizing data from the YouTube API.",
+        image: youtube, 
+        link: "https://youtube-clone-chi-woad.vercel.app"
     }
+    
 ]
 
