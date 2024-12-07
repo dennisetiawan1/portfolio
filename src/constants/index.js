@@ -17,6 +17,7 @@ import amazon from "../assets/Projects/amazon.png"
 import rock from "../assets/Projects/rock.png"
 import transfermarkt from '../assets/Projects/transfermarkt.png'
 import youtube from '../assets/Projects/youtube.png'
+import foodDelivery from '../assets/Projects/food-delivery.png'
 
 export const ABOUT = [
     {
@@ -113,6 +114,12 @@ export const PROJECTS = [
         desc: "A clone of the YouTube website built with React and CSS, utilizing data from the YouTube API.",
         image: youtube, 
         link: "https://youtube-clone-chi-woad.vercel.app"
+    },
+    {
+        title: "Food Delivery",
+        desc: "A Food Delivery website built with React and CSS.",
+        image: foodDelivery, 
+        link: "https://food-delivery-five-kappa.vercel.app/"
     }
     
 ]
