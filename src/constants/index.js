@@ -18,6 +18,7 @@ import rock from "../assets/Projects/rock.png"
 import transfermarkt from '../assets/Projects/transfermarkt.png'
 import youtube from '../assets/Projects/youtube.png'
 import foodDelivery from '../assets/Projects/food-delivery.png'
+import jobPortal from '../assets/Projects/job-portal.png'
 
 export const ABOUT = [
     {
@@ -120,6 +121,12 @@ export const PROJECTS = [
         desc: "A Food Delivery website built with React and CSS.",
         image: foodDelivery, 
         link: "https://food-delivery-five-kappa.vercel.app/"
+    },
+    {
+        title: "Job Portal",
+        desc: "A job search website built using MongoDB, Express.js, React and Node.js",
+        image: jobPortal,
+        link: "https://job-portal-client-plum.vercel.app/"
     }
     
 ]
