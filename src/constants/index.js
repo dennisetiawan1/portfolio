@@ -19,6 +19,7 @@ import transfermarkt from '../assets/Projects/transfermarkt.png'
 import youtube from '../assets/Projects/youtube.png'
 import foodDelivery from '../assets/Projects/food-delivery.png'
 import jobPortal from '../assets/Projects/job-portal.png'
+import ekosistem from '../assets/Projects/ekosistem.png'
 
 export const ABOUT = [
     {
@@ -127,6 +128,12 @@ export const PROJECTS = [
         desc: "A job search website built using MongoDB, Express.js, React and Node.js",
         image: jobPortal,
         link: "https://job-portal-client-plum.vercel.app/"
+    },
+        {
+        title: "Ecosystem",
+        desc: "A web-based client management system built using PHP, JavaScript, and MySQL with visual relationship flowcharts.",
+        image: ekosistem,
+        link: "https://bismillahirrahmanirrahim.infinityfreeapp.com/"
     }
     
 ]
